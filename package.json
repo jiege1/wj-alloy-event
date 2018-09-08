@@ -1,0 +1,43 @@
+{
+  "name": "wj-alloy-event",
+  "version": "0.0.2",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "flow": "yarn run flow",
+    "lint": "./node_modules/.bin/eslint --fix src"
+  },
+  "repository": "",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-import": "^1.7.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.13",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-flowtype": "^2.46.1",
+    "flow-bin": "^0.69.0",
+    "prop-types": "^15.6.1",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-eslint": "^4.0.0",
+    "rollup-plugin-less": "^0.1.4",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-uglify": "^3.0.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-react": "^7.10.0",
+    "react": "^16.3.2",
+    "eslint": "^5.4.0",
+    "eslint-import-resolver-webpack": "^0.10.1"
+  }
+}

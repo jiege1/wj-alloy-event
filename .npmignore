@@ -1,0 +1,14 @@
+.*.swp
+._*
+node_modules
+.DS_Store
+.git
+.hg
+.lock-wscript
+.svn
+src
+.wafpickle-*
+CVS
+npm-debug.log
+.idea
+rollup.config.js
